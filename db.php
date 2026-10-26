@@ -1,7 +1,13 @@
 <?php
-    $conn = new mysqli("127.0.0.1", "root", "", "gold_db", 3307);
+$host = "127.0.0.1";
+$user = "root";
+$pass = "";
+$dbname = "gold_db";
+$port = 3307; 
 
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+$conn = new mysqli($host, $user, $pass, $dbname, $port);
+
+if ($conn->connect_error) {
+    die("Database Connection Failed: " . $conn->connect_error);
+}
 ?>

@@ -1,0 +1,6 @@
+<?php
+define('METALS_API_KEY', '7216d2818bde134814329fd70e95c598');
+
+define('FALLBACK_GOLD_SPOT_USD', 2700.00); 
+define('FALLBACK_USD_MYR_RATE', 4.35);     
+?>
